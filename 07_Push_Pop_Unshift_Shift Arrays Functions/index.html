@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <meta name="viewport" content="width=device-width" initial-scale=1.0>
+                <title>Push_Pop_Shift_Unshift</title>
+                    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script> <!-- Angular JS CDN -->
+    </head>
+<body>
+<table>
+    <tr>
+        <td>
+            Enter any value:
+        </td>
+        <td>
+            <input id="txtArryValue" type="text">
+        </td>
+        <td>
+            <button onclick="doArrayPush()">Push</button> <!-- Add NEW element inserted in to input tag to the END of Array -->
+        </td>
+        <td>
+            <button onclick="doArrayPop()">Pop</button> <!-- Removes LAST element of Array -->
+        </td>
+        <td>
+            <button onclick="doArrayUnShift()">UnShift (the txt value)</button> <!-- Add NEW element inserted in to input tag to the TOP of Array -->
+        </td>
+        <td>
+            <button onclick="doArrayShift()">Shift</button>  <!-- Removes FIRST element of Array -->
+        </td>
+    </tr>
+</table>
+<hr>
+<div id="arryCount"></div>
+<br>
+<div id="arryItems"></div>
+
+ <!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous">
+</script>
+<!-- Custom Script -->
+<script type="text/javascript" src="push_pop_shift_unshift.js"></script>
+</body>
+</html>
